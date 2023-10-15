@@ -1,57 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header> 
-        <a href="index.html" class="h-work">SiteLogo</a> 
-        <nav> 
-            <ul> 
-                <li> 
-                    <a href="index.html"  class="hero-button">Головна сторінка</a> 
-                </li> 
-                <li> 
-                    <a href="reviews.html"  class="hero-button">Мої роботи</a> 
-                </li> 
-                <li> 
-                    <a href="work.html"  class="hero-button">Відгуки</a> 
-                </li> 
-                <li> 
-                    <a href="contacts.html"  class="hero-button">Контакти</a> 
-                </li> 
-            </ul> 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Project</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+<body> 
+    <header class="header">  
+        <div class="container header-wrap"> 
+        <a href="index.html" class="logo">SiteLogo</a>  
+        <nav class="header-nav">  
+            <ul class="header-list">  
+                <li class="header-item">  
+                    <a class="header-link" href="index.html"  class="hero-button">Головна сторінка</a>  
+                </li>  
+                <li class="header-item">  
+                    <a class="header-link" href="work.html"  class="hero-button">Мої роботи</a>  
+                </li>  
+                <li class="header-item">  
+                    <a class="header-link" href="reviews.html"  class="hero-button">Відгуки</a>  
+                </li>  
+                <li class="header-item">  
+                    <a class="header-link" href="contacts.html"  class="hero-button">Контакти</a>  
+                </li>  
+            </ul>  
         </nav> 
-    </header> 
-    <main> 
-        <section> 
-            <div class="container"> 
-                <img class="index-img" src="Screenshot_2.png" alt="My photo"> 
-                <p class="index-p">остання робота</p> 
-            </div> 
-        </section> 
+    </div>  
+    </header>  
+ 
+    <main>  
+        <section class="reviews">  
+          <div class="container">  
+            <ul class="reviews-list">  
+              <li class="reviews-item">  
+                <img  src="https://upload.wikimedia.org/wikipedia/commons/9/96/User_icon-cp.png" alt="" class="reviews-img">  
+                <div class="reviews-wrap">  
+                  <h2 class="reviews-name">Степан Іваненко</h2>  
+                  <p class="reviews-text">Компанія чудово виконала замовлення. Робота зроблена на відмінно!</p>  
+                </div>  
+              </li>  
+              <li class="reviews-item">  
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/User_icon-cp.png" alt="" class="reviews-img">  
+                <div class="reviews-wrap">  
+                  <h2 class="reviews-name">Ольга Ткаченко</h2>  
+                  <p class="reviews-text">Компанія робить чудові сайти! Я в захваті! Робота акуратна та вчасно виконана</p>  
+                </div>  
+              </li>  
+              <li class="reviews-item">  
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/User_icon-cp.png" alt="" class="reviews-img">  
+                <div class="reviews-wrap">  
+                  <h2 class="reviews-name">Анна Петрова</h2>  
+                  <p class="reviews-text">Можна було і краще!</p>  
+                </div>  
+              </li>  
+              <li class="reviews-item">  
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/User_icon-cp.png" alt="" class="reviews-img">  
+                <div class="reviews-wrap">  
+                  <h2 class="reviews-name">Ігор Петровський</h2>  
+                  <p class="reviews-text">Не те що я очікував, технічне завдання було не погоджено! І ціна завищена!</p>  
+                </div>  
+              </li>  
+              <li class="reviews-item">  
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/User_icon-cp.png" alt="" class="reviews-img">  
+                <div class="reviews-wrap">  
+                  <h2 class="reviews-name">Марія Єгоровна</h2>  
+                  <p class="reviews-text">Зробили інший дизайл, але сайт вийшов ще краще ніж заплановано</p>  
+                </div>  
+              </li>  
+            </ul>  
+            <div class="btn-wrap">  
+              <button class="reviews-btn">Більше відгуків</button>  
+            </div>  
+              
+          </div>  
+        </section>  
     </main> 
-
-    <main> 
-        <section> 
-            <div class="container"> 
-                <img class="index-img" src="Screenshot_3.png" alt="My photo"> 
-                <p class="index-p">14 робота</p> 
-            </div> 
-        </section> 
-    </main> 
-
-    <main> 
-        <section> 
-            <div class="container"> 
-                <img class="index-img" src="Screenshot_4.png" alt="My photo"> 
-                <p class="index-p">12 робота</p> 
-            </div> 
-        </section> 
-    </main> 
-</body>
+ 
+    <footer class="footer">  
+        <div class="container footer-wrap">  
+            <ul class="footer-list">  
+                <li class="footer-item">  
+                    <a class="footer-link" href="index.html">Головна сторінка</a>  
+                </li>  
+                <li class="footer-item">  
+                    <a
+                        class="footer-link" href="reviews.html">Відгуки</a>  
+                </li>  
+                <li class="footer-item">  
+                    <a class="footer-link" href="work.html">Мої роботи</a>  
+                </li>  
+                <li class="footer-item">  
+                    <a class="footer-link" href="contacts.html">Контакти</a>  
+                </li>  
+            </ul>   
+            <a href="index.html"  class="logo">SiteLogo</a>  
+        </div> 
+    </footer> 
+</body> 
 </html>
